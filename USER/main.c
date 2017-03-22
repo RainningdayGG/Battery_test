@@ -97,7 +97,7 @@ void Communication_Can_task(void *p_arg)
 *******************************************************************************/
 void Contrl_Time_Task(void *p_arg)
 {
-	p_arg = p_arg;
+	p_arg = p_arg;//hello there is modified
 	while(1)
 	{
 		OSTimeDlyHMSM(0,0,1,0);//先延时一秒，防止一进任务，就马上减一秒
